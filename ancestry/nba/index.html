@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <script type="text/javascript"  src="http://code.jquery.com/jquery-latest.js"></script>
+       <script  type="text/javascript"  >
+           function loadExternalContent() {
+        jQuery('#content-container').load("http://yahoo.com", function () {
+            alert('External page loaded!');
+        });
+    }
+    </script>
+</head>
+<body>
+
+ 
+        <div id="content-container">
+	           <!-- replace this content with external page -->
+       </div>
+ 
+<a href="javascript:void(0);" onclick="loadExternalContent();"
+title="jQuery Load external page">
+	jQuery load external page
+</a>
+</body>
+</html>

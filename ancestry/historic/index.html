@@ -1,0 +1,145 @@
+<script>
+    var imgs = ["http://localhost/historic/maps/whitpain_2019.jpg","http://localhost/historic/maps/whitpain_1893.jpg"];
+
+    function changeImage(dir) {
+        var img = document.getElementById("imgClickAndChange");
+        img.src = imgs[imgs.indexOf(img.src) + (dir || 1)] || imgs[dir ? imgs.length - 1 : 0];
+    }
+
+    document.onkeydown = function(e) {
+        e = e || window.event;
+        if (e.keyCode == '37') {
+            changeImage(-1) //left <- show Prev image
+        } else if (e.keyCode == '39') {
+            // right -> show next image
+            changeImage()
+        }
+    }
+</script>
+
+<style type="text/css">
+
+iframe {
+height: 440px;
+width: 600px;
+}
+
+
+html,body{
+  width: 100%;
+  margin: auto;
+  text-align:center;
+  font-family: Helvetica;
+}
+
+div{
+   color: white;
+   background: black;
+   margin: auto;
+   width: 600px;
+   padding: 5px;
+}
+
+.resp-container {
+    position: relative;
+    overflow: hidden;
+}
+
+resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+</style>
+
+
+<br>
+<div>Whitpain maps (press left/right to change)<br>
+   <img alt="slideshow" width="600px" src="http://localhost/historic/maps/whitpain_2019.jpg" id="imgClickAndChange" onclick="changeImage()" />
+</div>
+
+<br>
+<div>Whitpain Township<br>
+<iframe frameborder="0" class="juxtapose" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=7e2ce186-83c9-11e9-b9b8-0edaf8f81e27"></iframe>
+</div>
+
+<br>
+<div>Whitpain Township<br>
+<iframe frameborder="0" class="juxtapose" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=797f5bfa-83c4-11e9-b9b8-0edaf8f81e27"></iframe>
+</div>
+
+<br>
+<div>Erbs Mill and Township Line<br>
+<iframe frameborder="0" class="juxtapose" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=5ba0cfcc-87e0-11e9-b9b8-0edaf8f81e27"></iframe>
+</div>
+
+<br>
+<div>DeKalb and Township Line<br>
+<iframe frameborder="0" class="juxtapose" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=96982fb2-84ac-11e9-b9b8-0edaf8f81e27"></iframe>
+</div>
+
+<br>
+<div>DeKalb and Township Line<br>
+<iframe frameborder="0" class="juxtapose" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=d551762e-87df-11e9-b9b8-0edaf8f81e27"></iframe>
+</div>
+
+<br>
+<div>DeKalb and Swede<br>
+<iframe frameborder="0" class="juxtapose" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=f724b59a-8726-11e9-b9b8-0edaf8f81e27"></iframe>
+</div>
+
+<br>
+<div>DeKalb and Daws<br>
+<iframe frameborder="0" class="juxtapose" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=336429e6-8c9a-11e9-b9b8-0edaf8f81e27"></iframe>
+</div>
+
+<br>
+<div>Skippack Pike<br>
+<iframe frameborder="0" class="juxtapose" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=6d5a8ce6-84af-11e9-b9b8-0edaf8f81e27"></iframe>
+</div>
+  
+<br>
+<div>Skippack and DeKalb<br>
+<iframe frameborder="0" class="juxtapose" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=281b0b56-8400-11e9-b9b8-0edaf8f81e27"></iframe>
+</div>
+
+<br>
+<div>Mermaid Lake<br>
+<iframe frameborder="0" class="juxtapose" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=50a9752c-887d-11e9-b9b8-0edaf8f81e27"></iframe>
+</div>
+
+<br>
+<div>Wings Field<br>
+<iframe frameborder="0" class="juxtapose" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=0d432cf0-82fc-11e9-b9b8-0edaf8f81e27"></iframe>
+</div>
+  
+<br>
+<div>Wings Field<br>
+<iframe frameborder="0" class="juxtapose" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=7ec824f8-84b8-11e9-b9b8-0edaf8f81e27"></iframe>
+</div>
+
+<br>
+<div>Blue Bell Inn<br>
+<iframe frameborder="0" class="juxtapose" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=686cfaf4-8895-11e9-b9b8-0edaf8f81e27"></iframe>
+</div>
+
+<br>
+<div>Broad Axe Tavern<br>
+<iframe frameborder="0" class="juxtapose" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=b5b40df6-8643-11e9-b9b8-0edaf8f81e27"></iframe>
+</div>
+  
+<br>
+<div>Reed's Country Store<br>
+<iframe frameborder="0" class="juxtapose" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=447bb4d8-865a-11e9-b9b8-0edaf8f81e27"></iframe>
+</div>
+
+<br>
+<div>Reed's Country Store<br>
+<iframe frameborder="0" class="juxtapose" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=d1d35382-84a6-11e9-b9b8-0edaf8f81e27"></iframe>
+</div>
+
+<br>

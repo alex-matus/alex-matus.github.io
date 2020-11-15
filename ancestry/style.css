@@ -1,0 +1,990 @@
+a {
+    text-decoration: none;
+    color: #004276;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:hover img.thumbnail {
+    opacity: .80;
+    filter: alpha(opacity=80);
+}
+
+#accordian {
+    float: left;
+    width: 200px;
+    padding: 38px 0px 0px 0px;
+    background: #F8F8F8;
+}
+
+#accordian h2 {
+    height: 20px;
+    width: 200px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0 0 0 0px;
+    border-bottom: 1px dashed #B3B0B0;
+    letter-spacing: -0px;
+    font-size: 18px;
+    color: #004276;
+}
+
+#accordian ul {
+    list-style-type: none;
+    padding: 0 0 0 0px;
+    margin: 0;
+    font-size: 12px;
+    background: #F8F8F8;
+}
+
+#accordian li {
+    background: #F8F8F8;
+    color: #fff;
+    font-weight: bold;
+    width: 200px;
+    padding: 0 0 0 20px;
+    border-right: 20px solid #F8F8F8;
+}
+
+#accordian a {
+    text-decoration: none;
+    display: block;
+    padding: 3px 12px 3px 8px;
+    background: #F8F8F8;
+    color: #181B20;
+    outline-right: solid 6px #888;   
+}
+
+#accordian a:hover {
+    text-decoration: underline;
+}
+
+#accordian a:active {
+    padding: 3px 12px 3px 8px;
+    background-color: #fff;
+    color: #181B20;
+}
+
+#accordian li li {
+    font-weight: normal;
+    border-right: 0px solid #B3B0B0;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 0 0 10px;
+}
+
+#accordian li a {
+    background-color: #fff;
+    border: 1px solid #999;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#accordian li li a {
+    text-decoration: none;
+    color: #004276;
+    border: 0px solid #ccc;
+    background-color: #F8F8F8;
+}
+
+#accordian li li a:active {
+    background-color: #F8F8F8;
+    color: #004276;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffe294;;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #181B20;
+}
+
+#colophon {border-top: 0px solid #ccc;}
+
+#container {
+	background-color: #fff;
+	border-left: 30px solid #fff;
+	border-right: 30px solid #fff;
+}
+
+#ie6 .two-column #container {
+	width: 550px;
+}
+
+#chart-div {
+    background: #fff;
+position:absolute;
+left: 200px;
+}
+
+
+#content {
+    float: left;
+    width: 699px;
+    border-right: 1px solid #ccc;
+    padding:  30px 30px 0px 30px;
+    background: #fff;
+}
+
+#content table {
+    border: 0px solid #ccc;
+    margin: 0 -1px 24px 0;
+    text-align: left;
+}
+
+#content tr{
+    border-bottom: 5px solid #ccc;
+}
+
+#content tr td{
+    border-top: 1px solid #ccc;
+    font-size: 14px;
+    padding: 0px 10px;
+    background-size: 100% 100%;
+}
+
+#content tr tr td {
+    vertical-align: top;
+}
+
+#content tr td.img1 {
+    background: url("http://sun.aos.wisc.edu/~amatus/review/dynamics/figures/1layer.tiff"); 
+}
+
+#content_ancestry {
+    float: left;
+    width: 699px;
+    border-right: 1px solid #ccc;
+    padding:  30px 30px 0px 30px;
+    background: #fff;
+}
+
+#content tr:hover {background-color: #F8F8F8;}
+
+
+
+.crop { width: 80px; height: 80px; overflow: hidden; }
+
+.crop img { width: 100px; height: 66px; margin: 0px 0 0px 0px; }
+
+.crop link { width: 100px; height: 105px; margin: 0px 0 0px 0px; }
+
+
+
+
+div.floating-header {
+    padding-bottom: 30px;
+}
+
+div.floating-menu {
+    position:fixed;
+    background:#F8F8F8;
+    width:220px;
+    z-index:100;
+    line-height: 170%;
+    font-size: 12px;
+}
+
+div.floating-menu #top {
+    display: inline;
+    float: right;
+    color:#ccc;
+    background:#F8F8F8;
+}
+
+div.floating-menu a, div.floating-menu h3 {
+    display:block;
+}
+
+
+
+.entry h1 {
+    font-size: 1.6em;
+    border-bottom: 0px solid #ccc;
+    padding-bottom: 0em;
+}
+.entry-content a {
+    color: #000;
+}
+.entry-content h1 {
+http://sun.aos.wisc.edu/ancestry/#    font-size: 20px;
+    border-bottom: 0px solid #ccc;
+    padding-bottom: 10px;
+}
+.entry-content h2 {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: normal;
+    letter-spacing: 0.0em;
+}
+.entry-content h3 {
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.025em;
+    text-transform: none;
+}
+
+.entry-content h4 {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+#footer {
+    width: 1000px;
+    height: 5px;
+    margin: 0px auto 0px auto;
+    background: #204066;
+    border: 1px solid #204066;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer-main {
+    width: 1000px;
+    height: 55px;
+    margin: 0px auto 20px auto;
+    border: 1px solid #204066;
+    border-top: 1px solid #1B3759;
+    background: url(http://sun.aos.wisc.edu/img/bg/footer_bg.png) repeat-x center top;
+    background-size: contain;
+}
+
+#footer-main ul {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 3px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #C5D5E2;
+    margin: 0;
+    padding-top: 22px;
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#footer-main ul li {
+    display: block;
+    position: relative;
+    float: left;
+
+}
+
+#footer-main ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 0px 15px 0px 15px;
+    color: #C5D5E2;
+    white-space: nowrap;
+    border-right:  1px solid #C5D5E2;
+}
+
+#footer-main ul li a:hover {
+    color: #fff;
+}
+
+
+.form1 textarea, input{
+    font-size:13px;
+    border: 1px solid #767676;
+    background-color:white;    
+    padding: 2px 6px 2px 6px;f
+}
+
+.form1 tr:hover {background-color: transparent;}
+
+.form1 input:hover, input:focus, textarea:hover, textarea:focus{
+    border: 1px solid #004276;
+    cursor:pointer;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    color: #004276;
+}
+/*################################*/
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    text-transform: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #004276;
+    letter-spacing: -0px;
+}
+
+h6 {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-family: 'PT Serif', serif;
+    font-weight: lighter;
+    color: #004276;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 1.6em;
+    height: 24px; 
+}
+
+h2 {
+    font-size: 1.8em;
+    height: 34px;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+#header {
+    width: 960px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+#header-wrapper {
+    height: 90px;
+    background: url(http://sun.aos.wisc.edu/img/skyline.png) no-repeat center top #6dabe1; /*#3880C0;*/ 
+    border-bottom: 1px solid #1B3759;
+}
+
+.highslide-container div {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10pt;
+}
+
+img.alignleft {
+    float: left;
+    margin-right: 25px;
+}
+
+img.alignright {
+    float: right;
+    margin-left: 25px;
+}
+
+img.aligncenter {
+    margin: 0px auto;
+}
+
+img.border {
+    background: #FFFFFF; /*frame background colour*/ 
+    padding: 6px; /*frame width*/ 
+    -webkit-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+    -moz-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+    box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+    -webkit-border-radius: 4px; 
+    -moz-border-radius: 4px; 
+    border-radius: 4px; 
+}
+
+.in-page .highslide-image {
+    border: 1px solid black;
+}
+.in-page .highslide-controls {
+    width: 90px !important;
+}
+.in-page .highslide-controls .highslide-close {
+    display: none;
+}
+.in-page .highslide-caption {
+    padding: .5em 0;
+}
+
+label {font-size: 14px;}
+
+.links {
+    display: block;
+    width: 96px;
+    padding: 2px 0px 2px 0px;
+    background: #A53602;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #FFFFFF;
+}
+
+#list_related{
+    width: 260px;
+    padding: 16px;
+    padding-left: 20px !important;		
+}
+
+#list_related a{
+    display:block;
+    padding: 0px 0;
+    color:#004276;
+    text-align: left;
+    font-weight: normal !important;
+    text-decoration:none;
+    height: 29px !important;
+    background-color:#F8F8F8 !important;
+    border: 0px !important;
+}
+
+#list_related a:hover{
+    color:#004276;
+    text-decoration:underline;
+}
+
+#list_related li{
+    list-style:none;
+    padding: 0 0 0 22px;
+    background: url(http://sun.aos.wisc.edu/img/sprite.png) -8px 0px /*repeat-y <-- use if your sprite is setup vertically*/ ;
+}
+
+#list_related li:hover{
+    background: url(http://sun.aos.wisc.edu/img/sprite.png) -8px 24px /*repeat-y <-- use if your sprite is setup vertically*/;
+}
+
+
+
+
+#list_courses{
+    width: 330px;
+    padding: 16px;
+    border: 1px dotted #CCC;		
+}
+
+#list_courses a{
+    display:block;
+    padding: 0px 0;
+    color:#004276;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration:none;
+    background-color:#FFF; /*use if your sprite is NOT setup vertically, so you can "hide" the li element's  repeating background*/
+}
+
+#list_courses a:hover{
+    color:#004276;
+    text-decoration:underline;
+}
+
+#list_courses li{
+    list-style:none;
+    padding: 0 0 0 22px;
+    background: url(http://sun.aos.wisc.edu/img/sprite.png) -8px 0px /*repeat-y <-- use if your sprite is setup vertically*/ ;
+}
+
+#list_courses li:hover{
+    background: url(http://sun.aos.wisc.edu/img/sprite.png) -8px 24px /*repeat-y <-- use if your sprite is setup vertically*/;
+}
+
+#list_review{
+    width: 180px;
+    padding: 16px;
+    border: 1px dotted #CCC;		
+}
+
+#list_review a{
+    display:block;
+    padding: 0px 0;
+    color:#004276;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration:none;
+    background-color:#FFF; /*use if your sprite is NOT setup vertically, so you can "hide" the li element's  repeating background*/
+}
+
+#list_review a:hover{
+    color:#004276;
+    text-decoration:underline;
+}
+
+#list_review li{
+    list-style:none;
+    padding: 0 0 0 22px;
+    background: url(http://sun.aos.wisc.edu/img/sprite.png) -8px 0px /*repeat-y <-- use if your sprite is setup vertically*/ ;
+}
+
+#list_review li:hover{
+    background: url(http://sun.aos.wisc.edu/img/sprite.png) -8px 24px /*repeat-y <-- use if your sprite is setup vertically*/;
+}
+
+#logo {
+    width: 980px;
+    margin: 0px auto;
+    padding: 0px 0px 0px 0px;
+    color: #FFFFFF;
+}
+
+#loleft {
+    width: 760px;
+    float: left;
+    margin-top: 15px;
+}
+
+#loright {
+    width: 220px;
+    float: right;
+    margin-top: 5px;
+}
+
+#logo h1, #logo p {
+    display: block;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+#logo h1 {
+    margin-top: -15px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: normal;
+    color: #FFFFFF;
+    text-shadow: black 1px 1px 2px;
+}
+/*################################*/
+
+#logo h1 {
+    margin-top: 4px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #FFFFFF;
+    height: 40px;
+}
+
+#logo h1 a {
+    color: #FFFFFF;
+}
+
+#logo p {
+    margin-top: -10px;
+    letter-spacing: 1.5px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'Signika', sans-serif;
+    font-size: 20px;
+    text-shadow: black 1px 1px 2px;
+}
+/*################################*/
+
+#logo p {
+    margin-top: -10px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: none;
+    font-family: 'Open Sans', sans-serif; /*Helvetica Neue*/
+    font-size: 16px;
+}
+
+#logo a {
+    border: none;
+    background: none;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+#menu {
+    width: 940px;
+    height: 29px;
+    margin: 0px auto;
+    padding: 0px 70px 0px 20px;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    list-style: none;
+    line-height: normal;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu a {
+    display: block;
+    float: left;
+    height: 27px;
+    margin: 0px;
+    padding: 0px 30px 0px 30px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #C5D5E2;
+    border: none;
+}
+
+#menu .current_page_item a {
+    color: #FFFFFF;
+}
+
+#menu a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/*################################*/
+
+#nav {
+    width: 940px;
+    height: 29px;
+    margin: 0px auto;
+    padding: 0px 100px 0px 20px;
+}
+
+#nav ul {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #C5D5E2;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    z-index: 999;
+}
+#nav ul li {
+    display: block;
+    position: relative;
+    float: left;
+}
+#nav li ul {
+    display: none;
+}
+#nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 0px 30px 0px 30px;
+    color: #bcd6ec;
+    white-space: nowrap;
+}
+
+#nav ul ul{
+    border: 1px solid #204066;
+    border-top: 2px solid #204066;
+    line-height: 20px;
+    letter-spacing: 0px;
+    margin-left: 10px;
+    margin-top: 0px;
+    padding-top: 0px;
+    text-align: left;
+
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0, .15));
+    -moz-box-shadow: 0 0 10px rgba(0,0,0, .15);
+    box-shadow: 0 0 10px rgba(0,0,0, .15);
+}
+
+#nav ul li li a{
+    padding: 3px 20px 3px 20px;
+    background: #F8F8F8;
+    color: #004276;
+    border-top: 1px solid #aaa;
+}
+
+#nav ul li a:hover {
+    background: #04376C;
+    color: #fff;
+}
+#nav li:hover ul {
+    display: block;
+    position: absolute;
+}
+#nav li li {
+    float: none;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    text-transform: none;
+}
+
+#nav li li a:hover {background: #204066; }
+/*################################*/
+
+
+p, ul, ol {
+    margin-top: 0;
+    line-height: 150%;
+    font-size: 14px;
+    font-family: 'Helvetica Neue', sans-serif; 
+    color: #363636;
+}
+
+
+p.small{
+    clear: both; /*clears the floats used above*/
+    font-size: .9em; 
+}
+
+#p1 {
+    float:none;
+    margin-top:40px;
+    color: #333;
+    font-size:18px;
+}
+
+#p2 {
+    float: left;
+    color: #333;
+    width:32%;
+    margin-left:0px;
+    margin-right:20px;
+    margin-top:20px;
+    margin-bottom:6px;
+    font-family: 'Open Sans', sans-serif;
+    font-size:1.2em;
+    line-height: 100%;
+    border-bottom: 1px dashed #B3B0B0;
+}
+
+#p3 {
+    float: left;
+    color: #333;
+    width:90%;
+    margin-left:30px;
+    margin-right:20px;
+    font-size:14px;
+    line-height: 150%;
+}
+
+#p4 {
+    padding:10px;
+    padding-top:-90px;
+}
+
+#page {
+    margin: 0 auto;
+    padding: 0;
+    width: 1000px;
+    border: 1px solid #555;
+    border-bottom: 0px;
+    overflow: hidden;
+    background: #F8F8F8;
+
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0, .15));
+    -moz-box-shadow: 0 0 10px rgba(0,0,0, .15);
+    box-shadow: 0 0 10px rgba(0,0,0, .15);
+}
+
+.post {
+    clear: both;
+    padding-bottom: 10px;
+}
+
+.post .title {
+    padding-top: 0px;
+    letter-spacing: -1px;
+}
+
+.post .title a {
+    color: #004276;
+    border: none;
+}
+
+.post .meta {
+    padding-bottom: 0px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+.post .entry {
+    text-align: justify;
+    margin-bottom: 25px;
+    padding: 0px 0px 0px 0px;
+}
+
+#sidebar {
+    float: left;
+    width: 200px;
+    padding: 38px 20px 20px 20px;
+    background: #F8F8F8;
+}
+
+#sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#sidebar li {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+}
+
+#sidebar li li:before {
+    content: '\2742';
+    padding-left:0px;
+    color: #004276;
+}
+
+
+ul.a li span{
+    position:relative;
+    left:10px;
+}
+
+#sidebar li ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+
+#sidebar li li {
+    margin: 0;
+    padding: 0;
+    line-height: 35px;
+    padding-left: 0px;
+    text-indent: .7em;
+    font-size: 13px;
+    line-height: 180%;
+}
+
+#sidebar h2 {
+    height: 20px;
+    margin-bottom: 6px;
+    padding: 0px 0 0 px;
+    border-bottom: 1px dashed #B3B0B0;
+    letter-spacing: 0px;
+    font-size: 18px;
+    color: #004276;
+}
+
+#sidebar p {
+    margin: 0 0px;
+    padding: 0px 10px 10px 10px;
+    font-size: 13px;
+    text-align: left;
+}
+
+#site-weather { color: #fff; }
+
+#site-weather .sponsored { color: #999; }
+
+#site-logo {margin: 3px 10px 0 0;}
+
+.two-column #container {
+	max-width: 550px;
+}
+
+ul.enlarge{
+    list-style-type: none; /*remove the bullet point from the list items*/ 
+}
+
+ul.enlarge li{
+    float: left; /*places the images in a line*/ 
+    position: relative; /*enables us to place the popup over the tumbnail and position it exactly where we want*/ 
+    z-index: 0; /*resets the stack order of the list items - later we'll increase this*/ 
+    margin-left: -40px;
+    padding-right: 20px;
+}
+
+ul.enlarge img{
+    background: #FFFFFF; /*frame background colour*/ 
+    padding: 6px; /*frame width*/ 
+    -webkit-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+    -moz-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+    box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+    -webkit-border-radius: 4px; 
+    -moz-border-radius: 4px; 
+    border-radius: 4px; 
+}
+
+ul.enlarge span{
+    position: absolute; /*takes the popup image out the normal flow of the document so we can position it*/
+    background: #FFFFFF; /*frame colour*/ 
+    padding: 10px; /*frame width*/
+    -webkit-box-shadow: 0 0 20px rgba(0,0,0, .75));
+    -moz-box-shadow: 0 0 20px rgba(0,0,0, .75);
+    box-shadow: 0 0 20px rgba(0,0,0, .75);
+    -webkit-border-radius: 8px; 
+    -moz-border-radius: 8px; 
+    border-radius: 8px;
+    /*style the text on the popup*/	
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.0em;
+    text-align: center; 
+    color: #000; 
+}
+
+ul.enlarge span{
+    left: -9999px; /*moves the image off the page*/ 
+}
+
+ul.enlarge li:hover, ul.enlarge li:focus, ul.enlarge li a:focus{
+    z-index: 50; /*places the popup infront of the thumbnails by increasing its order in the document's stack*/ 
+}
+
+/*change the following values to position the popup where you want on the page*/	
+ul.enlarge li:hover span{ 
+    top: -140px; /*the position of the top of the popup relative to the top of the thumbnail (use negative value for above and positive for below)*/
+    left: 20px; /*the position of the left side of the popup relative to the left side of the thumbnail (use negative value for left and positive for right)*/
+}
+
+ul.enlarge li:hover:nth-child(2) span{ /*move the 2nd image further to the left*/
+    left: -100px; 
+}
+
+ul.enlarge li:hover:nth-child(3) span{ /*move the 3rd image further to the left*/
+    left: -200px; 
+}
+
+#weather p {
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: none;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+#weather tr:hover {background-color: transparent;}
+
+#wrapper {
+    margin: 0 auto;
+    padding: 0;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -60px; /* the bottom margin is the negative value of the footer's height */
+}
+
+.foot, .push {
+    height: 60px; /* .push must be the same height as .footer */
+}
+
+html, body {
+    height: 60%;
+}
+
+
+/* COLOR SCHEME */
+
+
+#menu-wrapper {
+    background: #04376C;
+    height: 29px; 
+    border-bottom:20px solid #FFE294;
+}
+
+
+#footer {background: #04376C }
+#footer-main {background: #3880C0 }
