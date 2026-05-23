@@ -2,7 +2,7 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alexander Matus
+  display: Alex Matus
   given: Alex
   family: Matus
   alternate: ''  # Example: 王伟
@@ -20,7 +20,7 @@ bio: |
   while ensuring ethical development.
 
 affiliations:
-  - name: Meta AI
+  - name: NASA Goddard/UMBC
     url: https://ai.meta.com/
 
 links:
