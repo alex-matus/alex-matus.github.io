@@ -87,7 +87,7 @@ sections:
       count: 10
       # Filter on criteria
       filters:
-        author: ''
+        author: admin
         category: ''
         tag: ''
         exclude_featured: false
