@@ -1,18 +1,50 @@
 ---
 # Display name
-title: Your Real Name
+title: Alex matus
 
-# Username (leave this as admin)
+# Username (Leave this as admin)
 username: admin
 
-# Role/Position (Frame this for corporate/industry)
-role: Research Scientist / Machine Learning Engineer
+# Your exact job title
+role: Research Scientist
 
-# Organizations/Affiliations
+# Your company or organization
 organizations:
-  - name: Your Current Company or Former Institution
+  - name: NASA Goddard Space Flight Center
+  - name: University of Maryland-Baltimore County
     url: ''
 
-# Short 1-sentence tagline that shows under your photo
-bio: My research focuses on scaling machine learning pipelines and deploying data infrastructure.
+# Short 1-sentence summary under your photo
+bio: Research Scientist specializing in data engineering and scalable systems.
+
+interests:
+  - Data Science
+  - Machine Learning
+  - R&D Engineering
+
+education:
+  courses:
+    - course: PhD in Atmospheric and Oceanic Sciences
+      institution: Your University
+      year: 2024
+    - course: BSc in Your Field
+      institution: Your University
+      year: 2020
+
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:your.email@email.com'
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/yourusername
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/yourprofile
+
+superuser: true
+user_groups:
+  - Researchers
 ---
+
+Write your professional summary paragraph here. Introduce yourself as an industry research scientist, mention the main techniques or frameworks you use every day, and outline the types of problems you solve.
