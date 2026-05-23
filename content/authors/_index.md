@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Alex matus
+title: Alex Matus
 
 # Username (Leave this as admin)
 username: admin
@@ -47,4 +47,4 @@ user_groups:
   - Researchers
 ---
 
-Write your professional summary paragraph here. Introduce yourself as an industry research scientist, mention the main techniques or frameworks you use every day, and outline the types of problems you solve.
+Here is my bio.
