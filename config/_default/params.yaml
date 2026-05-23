@@ -27,41 +27,35 @@ hugoblox:
     social:
       twitter: "GoOwnable" # Twitter/X handle for Twitter Cards (without @)
 
-  # ────────────────────────────────────────────────────────────────────────────
+# ────────────────────────────────────────────────────────────────────────────
   # THEME
-  # Color and visual design system
+  # Color and visual design system - Force Shilaan's exact HEX color properties
   # ────────────────────────────────────────────────────────────────────────────
   theme:
-    # Mode: 'light', 'dark', or 'system' (follows OS preference)
+    # Forces a clean, bright white background canvas
     mode: light
-    # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
-    pack: "minimal"
-    # Optional: Override theme pack colors
+    pack: "custom"
     colors:
-      primary: "slate" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
-      secondary: ""
-      neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
-    # Optional: Mode-specific color overrides
-    colors_light: {}
-    colors_dark: {}
-    # Optional: Semantic surface color overrides
-    surfaces:
-      background: ""
-      foreground: ""
-      header:
-        background: ""
-        foreground: ""
-      footer:
-        background: ""
-        foreground: ""
+      primary: "#035AA6"      # Her exact deep royal blue link/highlight color
+      secondary: "#5c6f84"    # Her slate gray subtitle/date font color
+      neutral: "#1a1a1a"      # Her off-black body font color (not harsh pure black)
+    
+    # Custom light theme colors to override default Hugo Blox utility backgrounds
+    colors_light:
+      background: "#ffffff"   # Pure white page background
+      text: "#1a1a1a"         # Main body text font
+      link: "#035AA6"         # Active hyperlinks
+      heading: "#000000"      # Headers match her dark presentation style
 
   # ────────────────────────────────────────────────────────────────────────────
   # TYPOGRAPHY
-  # Font and text sizing
+  # Font and text sizing - Replicating her exact font pairings
   # ────────────────────────────────────────────────────────────────────────────
   typography:
-    # Theme pack: name from data/fonts/
-    pack: "minimal"
+    # Using the standard academic set forces the elegant serif font family 
+    # (Playfair Display / Georgia) for your title and major headers, 
+    # while leaving body paragraph font clean and highly readable.
+    pack: "academic"
 
   # ────────────────────────────────────────────────────────────────────────────
   # LAYOUT
