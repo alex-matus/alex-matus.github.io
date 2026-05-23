@@ -37,10 +37,10 @@ social:
     link: 'mailto:your.email@email.com'
   - icon: github
     icon_pack: fab
-    link: https://github.com/yourusername
+    link: https://github.com/alex-matus
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/yourprofile
+    link: https://www.linkedin.com/in/avmatus
 
 superuser: true
 user_groups:
