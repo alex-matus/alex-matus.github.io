@@ -33,7 +33,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   theme:
     # Forces a clean, bright white background canvas
-    mode: light
+    mode: system
     pack: "minimal"
     colors:
       primary: "#035AA6"      # Her exact deep royal blue link/highlight color
@@ -59,10 +59,9 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   layout:
     # Border radius: 'none', 'sm', 'md', 'lg', or 'full'
-    radius: "lg"
-    font_size: "lg"
+    radius: "md"
     # Spacing density: 'compact', 'comfortable', or 'spacious'
-    spacing: "spacious"
+    spacing: "comfortable"
     # Avatar shape in author profiles
     avatar_shape: circle # circle | square | rounded
 
