@@ -46,8 +46,7 @@ interests:
 education:
   - degree: PhD Atmospheric and Oceanic Sciences
     institution: University of Wisconsin-Madison
-    start: 2013-09
-    end: 2017-08
+    start: 08/2013
     summary: |
       Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
     button:
@@ -56,8 +55,7 @@ education:
       icon: hero/arrow-down-tray
   - degree: MS Atmospheric and Oceanic Sciences
     institution: University of Wisconsin-Madison
-    start: 2013-09-01
-    end: 2015-05-31
+    start: 08/2013
   - degree: BS Meteorology
     institution: Penn State University
     start: 2009-09-01
