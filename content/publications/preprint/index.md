@@ -1,7 +1,7 @@
 ---
 title: "Enhancing Surface PM2.5 Air Quality Estimates in GEOS Using CATS Lidar Data"
 authors:
-- Alexander V. Matus
+- me
 - Edward P. Nowottnick
 - John E. Yorks
 - Arlindo M. da Silva
