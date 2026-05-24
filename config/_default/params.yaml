@@ -47,6 +47,10 @@ hugoblox:
       link: "#035AA6"         # Active hyperlinks
       heading: "#000000"      # Headers match her dark presentation style
 
+      # 👁️ ADD THESE TWO LINES TO FIX THE HIDDEN NAME:
+      header_text: "#000000"  # Forces your name and navigation links to be dark black
+      header_background: "#ffffff" # Keeps the bar blending seamlessly with your white background
+
   # ────────────────────────────────────────────────────────────────────────────
   # TYPOGRAPHY
   # Font and text sizing - Replicating her exact font pairings
