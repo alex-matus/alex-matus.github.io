@@ -55,7 +55,7 @@ hugoblox:
     # Using the standard academic set forces the elegant serif font family 
     # (Playfair Display / Georgia) for your title and major headers, 
     # while leaving body paragraph font clean and highly readable.
-    pack: "modern"
+    pack: "ocean"
 
   # ────────────────────────────────────────────────────────────────────────────
   # LAYOUT
@@ -63,7 +63,8 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   layout:
     # Border radius: 'none', 'sm', 'md', 'lg', or 'full'
-    radius: "md"
+    radius: "lg"
+    font_size: "lg"
     # Spacing density: 'compact', 'comfortable', or 'spacious'
     spacing: "spacious"
     # Avatar shape in author profiles
@@ -76,7 +77,7 @@ hugoblox:
   header:
     enable: true
     # Header style variant
-    style: navbar # navbar | navbar-simple | minimal
+    style: navbar-simple # navbar | navbar-simple | minimal
     # Stick to top on scroll
     sticky: true
     # Menu alignment
