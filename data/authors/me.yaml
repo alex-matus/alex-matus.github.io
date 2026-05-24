@@ -9,12 +9,11 @@ name:
   pronunciation: ''  # Example: Wáng Wěi
 postnominals:
   - PhD
-  - MIEEE
 status:
-  icon: "☕️"
+  icon: ""
 role: Research Scientist
 bio: |
-  Alex Matus is a Research Scientist at NASA Goddard/UMBC. His research
+  Alex Matus is a Research Scientist at NASA GSFC/UMBC. His research
   explores the global impacts of clouds, aerosols, and precipitation through use of satellites and
   numerical weather prediction models.
 
@@ -65,7 +64,7 @@ education:
 
 experience:
   - role: Assistant Research Scientist
-    org: GESTAR II UMBC/NASA GSFC
+    org: NASA GSFC/UMBC
     start: 2023-10-01
     summary: |
       Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
@@ -73,10 +72,10 @@ experience:
       text: View portfolio
       url: /
       icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+  - role: Postdoctoral Research Assistant
+    org: NASA GSFC/ORAU
+    start: 2021-11-01
+    end: 2023-09-30
     summary: |
       Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
 
@@ -107,8 +106,18 @@ languages:
     label: Fluent
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
+  - title: Group Achievement Award
+    awarder: NASA GSFC
+    date: "2025-12-01"
+    summary: Awarded in recognition of outstanding contributions participating in the IMPACTS research field campaign.
+    icon: hero/trophy
+    - title: Group Achievement Award
+    awarder: NASA GSFC
+    date: "2024-12-01"
+    summary: Awarded in recognition of outstanding contributions participating in the ACCLIP research field campaign.
+    icon: hero/trophy
+    - title: Lettau Award
+    awarder: University of Wisconsin-Madison
+    date: "2025-12-01"
+    summary: Awarded in recognition of outstanding PhD Dissertation in the AOSS department at UW-Madison.
     icon: hero/trophy
