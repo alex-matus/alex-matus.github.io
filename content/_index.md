@@ -23,7 +23,7 @@ sections:
       # Use the new Gradient Mesh which automatically adapts to the selected theme colors
       background:
         gradient_mesh:
-          enable: false
+          enable: true
 
       # Name heading sizing to accommodate long or short names
       name:
@@ -31,7 +31,7 @@ sections:
 
       # Avatar customization
       avatar:
-        size: md # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
+        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
