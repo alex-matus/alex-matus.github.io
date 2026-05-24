@@ -1,7 +1,7 @@
 ---
 title: "The Role of Clouds in Modulating Global Aerosol Direct Radiative Effects in Spaceborne Active Observations and the Community Earth System Model"
 authors:
-- Alexander V. Matus
+- me
 - Tristan S. L'Ecuyer
 - Jennifer E. Kay
 - Jean-François Lamarque
