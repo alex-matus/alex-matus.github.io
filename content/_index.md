@@ -40,9 +40,9 @@ sections:
       title: '📚 Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I'm a research scientist in atmospheric science specializing in satellite remote sensing. My research explores a range topics related to weather, climate, and air quality.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        I apply a range of qualitative and quantitative methods to comprehensively investigate the radiative impacts of clouds and aerosols in the global earth system.
 
         Please reach out to collaborate 😃
     design:
