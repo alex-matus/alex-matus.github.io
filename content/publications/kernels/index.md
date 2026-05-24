@@ -2,7 +2,7 @@
 title: "Observation-Based Radiative Kernels From CloudSat/CALIPSO"
 authors:
 - Ryan J. Kramer
-- Alexander V. Matus
+- me
 - Brian J. Soden
 - Tristan S. L'Ecuyer
 date: "2019-05-31T00:00:00Z"
