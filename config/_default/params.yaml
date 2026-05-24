@@ -55,7 +55,7 @@ hugoblox:
     # Using the standard academic set forces the elegant serif font family 
     # (Playfair Display / Georgia) for your title and major headers, 
     # while leaving body paragraph font clean and highly readable.
-    pack: "academic"
+    pack: "ocean"
 
   # ────────────────────────────────────────────────────────────────────────────
   # LAYOUT
