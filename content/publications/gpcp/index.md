@@ -1,7 +1,7 @@
 ---
 title: "The Role of Precipitation Variability in Closing the Global Atmospheric Energy Budget"
 authors:
-- Alexander V. Matus
+- me
 - Ryan J. Kramer
 - Lazaros Oreopoulos
 - Nayeong Cho
