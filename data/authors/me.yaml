@@ -20,7 +20,7 @@ bio: |
 
 affiliations:
   - name: NASA Goddard/UMBC
-    url: https://ai.meta.com/
+    url: https://science.gsfc.nasa.gov/earth/climate
 
 links:
   - icon: envelope
@@ -46,7 +46,8 @@ interests:
 education:
   - degree: PhD Atmospheric and Oceanic Sciences
     institution: University of Wisconsin-Madison
-    start: 08/2013
+    start: 2013-08-01
+    end: 2017-08-01
     summary: |
       Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
     button:
@@ -55,16 +56,17 @@ education:
       icon: hero/arrow-down-tray
   - degree: MS Atmospheric and Oceanic Sciences
     institution: University of Wisconsin-Madison
-    start: 08/2013
+    start: 2011-08-01
+    end: 2013-08-01
   - degree: BS Meteorology
     institution: Penn State University
-    start: 2009-09-01
-    end: 2013-05-31
+    start: 2005-09-01
+    end: 2009-05-01
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Assistant Research Scientist
+    org: GESTAR II UMBC/NASA GSFC
+    start: 2023-10-01
     summary: |
       Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
     button:
