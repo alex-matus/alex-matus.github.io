@@ -12,7 +12,7 @@ postnominals:
   - MIEEE
 status:
   icon: "☕️"
-role: Senior AI Research Scientist
+role: Research Scientist
 bio: |
   Alex Matus is a Research Scientist at NASA Goddard/UMBC. His research
   has been published in top conferences like NeurIPS and ICML, with over
@@ -45,8 +45,8 @@ interests:
   - AI Ethics
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
+  - degree: PhD Atmospheric and Oceanic Sciences
+    institution: University of Wisconsin-Madison
     start: 2015-09-01
     end: 2019-06-30
     summary: |
@@ -55,12 +55,12 @@ education:
       text: Download dissertation
       url: /resume.pdf
       icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
+  - degree: MS Atmospheric and Oceanic Sciences
+    institution: University of Wisconsin-Madison
     start: 2013-09-01
     end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
+  - degree: BS Meteorology
+    institution: Penn State University
     start: 2009-09-01
     end: 2013-05-31
 
