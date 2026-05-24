@@ -1,7 +1,7 @@
 ---
 title: "The role of cloud phase in Earth's radiation budget"
 authors:
-- Alexander V. Matus
+- me
 - Tristan S. L'Ecuyer
 date: "2017-03-16T00:00:00Z"
 
