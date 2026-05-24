@@ -25,7 +25,7 @@ affiliations:
 
 links:
   - icon: envelope
-    url: mailto:alex.johnson@example.com
+    url: mailto:avmatus@gmail.com
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/alex-matus
@@ -35,18 +35,20 @@ links:
     url: https://scholar.google.com/citations?user=X17vaawAAAAJ
   - icon: academicons/orcid
     url: https://orcid.org/0000-0002-0672-6692
+  - icon: academicons/researchgate
+    url: https://www.researchgate.net/profile/Alexander-Matus
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Remote Sensing
+  - Machine Learning
+  - Air Quality
+  - Radiative Transfer
 
 education:
   - degree: PhD Atmospheric and Oceanic Sciences
     institution: University of Wisconsin-Madison
-    start: 2015-09-01
-    end: 2019-06-30
+    start: 2013-09
+    end: 2017-08
     summary: |
       Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
     button:
