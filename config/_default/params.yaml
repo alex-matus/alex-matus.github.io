@@ -41,15 +41,7 @@ hugoblox:
       neutral: "#1a1a1a"      # Her off-black body font color (not harsh pure black)
     
     # Custom light theme colors to override default Hugo Blox utility backgrounds
-    colors_light:
-      background: "#ffffff"   # Pure white page background
-      text: "#1a1a1a"         # Main body text font
-      link: "#035AA6"         # Active hyperlinks
-      heading: "#000000"      # Headers match her dark presentation style
-
-      # 👁️ ADD THESE TWO LINES TO FIX THE HIDDEN NAME:
-      header_text: "#000000"  # Forces your name and navigation links to be dark black
-      header_background: "#ffffff" # Keeps the bar blending seamlessly with your white background
+    colors_light: {}
 
   # ────────────────────────────────────────────────────────────────────────────
   # TYPOGRAPHY
