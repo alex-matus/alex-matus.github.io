@@ -5,8 +5,8 @@ name:
   display: Alex Matus
   given: Alex
   family: Matus
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
+  alternate: ''
+  pronunciation: ''
 postnominals:
   - PhD
 status:
@@ -47,12 +47,6 @@ education:
     institution: University of Wisconsin-Madison
     start: 2013-08-01
     end: 2017-08-01
-    summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
   - degree: MS Atmospheric and Oceanic Sciences
     institution: University of Wisconsin-Madison
     start: 2011-08-01
@@ -66,18 +60,10 @@ experience:
   - role: Assistant Research Scientist
     org: NASA GSFC/UMBC
     start: 2023-10-01
-    summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
   - role: Postdoctoral Research Assistant
     org: NASA GSFC/ORAU
     start: 2021-11-01
     end: 2023-09-30
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
 
 skills:
   - name: Technical Skills
@@ -111,12 +97,12 @@ awards:
     date: "2025-12-01"
     summary: Awarded in recognition of outstanding contributions participating in the IMPACTS research field campaign.
     icon: hero/trophy
-    - title: Group Achievement Award
+  - title: Group Achievement Award
     awarder: NASA GSFC
     date: "2024-12-01"
     summary: Awarded in recognition of outstanding contributions participating in the ACCLIP research field campaign.
     icon: hero/trophy
-    - title: Lettau Award
+  - title: Lettau Award
     awarder: University of Wisconsin-Madison
     date: "2025-12-01"
     summary: Awarded in recognition of outstanding PhD Dissertation in the AOSS department at UW-Madison.
