@@ -2,7 +2,7 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Alex Matus
+  display: 🌎Alex Matus
   given: Alex
   family: Matus
   alternate: ''
