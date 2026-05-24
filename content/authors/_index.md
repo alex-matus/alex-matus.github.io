@@ -1,4 +1,3 @@
----
 # Display name
 title: Alex Matus
 
@@ -45,6 +44,5 @@ social:
 superuser: true
 user_groups:
   - Researchers
----
 
 Here is my bio.
