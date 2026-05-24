@@ -55,5 +55,5 @@ This research establishes a framework for evaluating global climate feedbacks by
 
 ### Key Innovations & Framework Updates
 * **Elimination of GCM Base-State Bias:** Traditional climate sensitivity diagnostics inherit systematic discrepancies from model assumptions. This tool uses empirical vertical measurements to ensure a neutral diagnostic base state.
-* **Active Sensor Synergy:** Built upon high vertical-resolution measurements from the `2B-FLXHR-LIDAR` multi-sensor product, mapping distinct layers of the atmosphere simultaneously.
+* **Active Sensor Synergy:** Built upon high vertical-resolution measurements from the 2B-FLXHR-LIDAR multi-sensor product, mapping distinct layers of the atmosphere simultaneously.
 * **Cloud Masking Corrections:** Clarifies longwave feedback mechanics by mapping exactly how cloud layers interact with, mask, and structurally alter the flux signals of non-cloud climate variables.
