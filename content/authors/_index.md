@@ -1,3 +1,4 @@
+---
 # Display name
 title: Alex Matus
 
@@ -9,9 +10,7 @@ role: Research Scientist
 
 # Your company or organization
 organizations:
-  - name: NASA Goddard Space Flight Center
   - name: University of Maryland-Baltimore County
-    url: ''
 
 # Short 1-sentence summary under your photo
 bio: Research Scientist specializing in data engineering and scalable systems.
@@ -44,5 +43,4 @@ social:
 superuser: true
 user_groups:
   - Researchers
-
-Here is my bio.
+---
