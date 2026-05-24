@@ -34,7 +34,7 @@ hugoblox:
   theme:
     # Forces a clean, bright white background canvas
     mode: light
-    pack: "custom"
+    pack: "minimal"
     colors:
       primary: "#035AA6"      # Her exact deep royal blue link/highlight color
       secondary: "#5c6f84"    # Her slate gray subtitle/date font color
