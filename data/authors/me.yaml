@@ -18,7 +18,7 @@ bio: |
   numerical weather prediction models.
 
 affiliations:
-  - name: NASA Goddard/UMBC
+  - name: NASA GSFC/UMBC
     url: https://science.gsfc.nasa.gov/earth/climate
 
 links:
@@ -104,6 +104,6 @@ awards:
     icon: hero/trophy
   - title: Lettau Award
     awarder: University of Wisconsin-Madison
-    date: "2025-12-01"
+    date: "2017-11-01"
     summary: Awarded in recognition of outstanding PhD Dissertation in the AOSS department at UW-Madison.
     icon: hero/trophy
