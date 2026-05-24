@@ -40,7 +40,7 @@ sections:
       title: '📚 Research'
       subtitle: ''
       text: |-
-        Welcome! I am an atmospheric research scientist specializing in satellite remote sensing. My work aims to advance our understanding of weather dynamics, climate systems, and air quality. 
+        Welcome! I am an atmospheric scientist specializing in satellite remote sensing. My work aims to advance our understanding of weather, climate dynamics, and air quality. 
 
         I apply a range of qualitative and quantitative methods to comprehensively investigate the radiative impacts of clouds and aerosols in the global earth system.
 
