@@ -38,7 +38,7 @@ slides: ""
 ---
 
 ### Key Points
-* **98% Mean Energy Closure:** The transition to GPCP v3.3 successfully shrinks the multiannual atmospheric energy budget residual down to $-2.4 \pm 9.5 \text{ W/m}^2$, a stark improvement over the legacy v2.3 baseline of $-13.5 \pm 10.0 \text{ W/m}^2$.
+* **98% Mean Energy Closure:** The transition to GPCP v3.3 successfully shrinks the multiannual atmospheric energy budget residual down to -2.4 $\pm$ 9.5 $\text{W/m}^2$, a stark improvement over the legacy v2.3 baseline of -13.5 $\pm$ 10.0 $\text{W/m}^2$.
 * **The Variability Trade-Off:** Tightening the long-term mean agreement inadvertently amplifies short-term interannual variability within the budget residual, exposing a structural trade-off between baseline accuracy and anomaly stability.
 * **Tropical Forcing Hotspots:** This shifting year-to-year variability is geographically anchored to localized convective adjustments in the Tropical Western Pacific, likely resulting from superior identification of high-intensity convective storm extremes.
 
