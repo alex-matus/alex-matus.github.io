@@ -27,11 +27,7 @@ sections:
       columns: 1
 ---
 
----
-title: "College Park Weather Tracker"
-date: "2026-05-25"
-type: "post"  # or "page" depending on your layout folder
----
+## College Park Weather Tracker
 
 Below is the live-updating interactive temperature log for College Park, MD, pulling directly from NOAA's climatology servers:
 
