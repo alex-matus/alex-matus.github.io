@@ -35,6 +35,7 @@ featured: true
 doi: ""
 projects: []
 slides: ""
+url_pdf: 'preprint.pdf'
 ---
 
 ### Key Points
