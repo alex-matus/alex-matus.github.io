@@ -10,14 +10,15 @@ date: "2026-05-24T00:00:00Z"
 # Schedule page publish date (NOT publication's date).
 publishDate: "2026-05-24T00:00:00Z"
 
-# Publication type set to manuscript while in review
-publication_types: ["manuscript"]
+# 🛠️ FIXED: Swapped to valid, standard unpublished manuscript/preprint string category
+publication_types: ["article"]
 
 # Clearly states the journal pipeline status
 publication: "Under review in *Geophysical Research Letters*"
 publication_short: "Under review in *GRL*"
 
-abstract: "The global hydrologic cycle is constrained by the atmospheric energy budget: net atmospheric radiation (Q_atm) must be balanced by latent heat flux from precipitation (LP) and sensible heat flux (SH). Historically, independent satellite observations have failed to achieve this closure, leaving a residual imbalance. We evaluate three generations of the Global Precipitation Climatology Project (GPCP v2.3, v3.2, and v3.3) alongside CERES radiation and ERA5 sensible heat flux. We find that GPCP v3.3 achieves a 98% mean multiannual energy closure (residual of -2.4 ± 9.5 W/m²), a significant improvement over v2.3 (-13.5 ± 10.0 W/m²). However, this improved mean-state agreement is accompanied by increased interannual variability in the budget residual. This variability originates from localized precipitation adjustments in the tropical Western Pacific, potentially linked to improved detection of convective extremes. This study highlights a fundamental trade-off between mean-state accuracy and anomaly stability, providing critical context for evaluation of Earth System models."
+# 🛠️ FIXED: Replaced raw math symbols with web-safe notation to prevent markdown layout clipping
+abstract: "The global hydrologic cycle is constrained by the atmospheric energy budget: net atmospheric radiation ($Q_{atm}$) must be balanced by latent heat flux from precipitation ($LP$) and sensible heat flux ($SH$). Historically, independent satellite observations have failed to achieve this closure, leaving a residual imbalance. We evaluate three generations of the Global Precipitation Climatology Project (GPCP v2.3, v3.2, and v3.3) alongside CERES radiation and ERA5 sensible heat flux. We find that GPCP v3.3 achieves a 98% mean multiannual energy closure (residual of -2.4 ± 9.5 W/m²), a significant improvement over v2.3 (-13.5 ± 10.0 W/m²). However, this improved mean-state agreement is accompanied by increased interannual variability in the budget residual. This variability originates from localized precipitation adjustments in the tropical Western Pacific, potentially linked to improved detection of convective extremes. This study highlights a fundamental trade-off between mean-state accuracy and anomaly stability, providing critical context for evaluation of Earth System models."
 
 # Summary. An optional shortened abstract (using your Plain Language core text).
 summary: By evaluating three generations of GPCP data alongside CERES observations, this study reveals that while GPCP v3.3 reconciles the global atmospheric energy budget within 98%, this improved mean-state accuracy introduces increased interannual variability tied to tropical Western Pacific convective extremes.
@@ -35,6 +36,8 @@ featured: true
 doi: ""
 projects: []
 slides: ""
+
+# Ensure your actual file is named exactly 'preprint.pdf' and placed in this identical folder path
 url_pdf: 'preprint.pdf'
 ---
 
