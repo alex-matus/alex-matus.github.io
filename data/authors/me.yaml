@@ -13,9 +13,9 @@ status:
   icon: ""
 role: Research Scientist
 bio: |
-  Alex Matus is a Research Scientist at NASA GSFC/UMBC. His research
-  explores themes of weather, climate, and air quality using advanced satellite remote sensing, 
-  earth system modeling, and machine learning techniques.
+  I am an Atmospheric Scientist and Machine Learning Researcher at NASA Goddard Space Flight Center / UMBC. 
+  My work focuses on pushing the limits of weather, climate, and environmental predictability by combining massive multi-sensor satellite observations, 
+  high-performance computing (HPC), and advanced machine learning architectures.
 
 affiliations:
   - name: NASA GSFC/UMBC
@@ -39,8 +39,8 @@ links:
 interests:
   - Remote Sensing
   - Machine Learning
-  - Air Quality
-  - Radiative Transfer
+  - Predictive Modeling
+  - Applied Research
 
 education:
   - degree: PhD Atmospheric and Oceanic Sciences
