@@ -202,7 +202,7 @@ hugoblox:
     google_tag_manager:
       container_id: "" # GTM-XXXXXXX
     plausible:
-      domain: "alex-matus.github.io\" data-website-id=\"06f2f118-f800-406b-830d-2c3286da177c\" src=\"https://cloud.umami.is/script.js"
+      domain: ""
     fathom:
       site_id: ""
     pirsch:
