@@ -40,11 +40,11 @@ sections:
       title: '📚 Research'
       subtitle: ''
       text: |-
-        Welcome! I am an atmospheric scientist specializing in satellite remote sensing. My work aims to advance our understanding of weather, climate dynamics, and air quality. 
+        Welcome to my research portfolio. I specialize in parsing highly chaotic earth systems and translating raw, multi-dimensional environmental data into high-precision, actionable risk assessments.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the radiative impacts of clouds and aerosols in the global earth system.
+        My research bridges the gap between physical atmospheric modeling and data-driven statistical engineering. Using advanced data assimilation, neural networks, and high-performance computing workflows (Python/Dask/SLURM), I build scalable pipelines to optimize predictive accuracy, quantify structural uncertainty, and evaluate the global energy budget.
 
-        Please reach out to collaborate 😃
+        Beyond core climate modeling, I am deeply interested in applied engineering solutions for renewable energy forecasting (wind/solar) and real-time environmental monitoring.
     design:
       columns: '1'
   - block: collection
