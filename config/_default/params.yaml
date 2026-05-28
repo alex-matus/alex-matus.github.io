@@ -6,7 +6,8 @@
 # ══════════════════════════════════════════════════════════════════════════════
 hugoblox:
   schema: "2.0"
-
+  head_tags:
+    - '<script defer src="https://cloud.umami.is/script.js" data-website-id="06f2f118-f800-406b-830d-2c3286da177c"></script>'
   # ────────────────────────────────────────────────────────────────────────────
   # IDENTITY
   # Site-level branding (for people/profiles, use the author system in content/authors/)
