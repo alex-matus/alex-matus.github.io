@@ -40,7 +40,7 @@ sections:
       title: '📚 Research'
       subtitle: ''
       text: |-
-        Welcome to my research portfolio. I specialize in parsing highly chaotic earth systems and translating raw, multi-dimensional environmental data into high-precision, actionable risk assessments.
+Welcome to my research portfolio. I specialize in parsing highly chaotic earth systems and translating raw, multi-dimensional environmental data into high-precision, actionable risk assessments.
 
 My research bridges the gap between physical atmospheric modeling and data-driven statistical engineering. Using advanced data assimilation, neural networks, and high-performance computing workflows (Python/Dask/SLURM), I build scalable pipelines to optimize predictive accuracy, quantify structural uncertainty, and evaluate the global energy budget.
 
