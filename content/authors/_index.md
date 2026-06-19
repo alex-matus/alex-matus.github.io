@@ -32,7 +32,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:your.email@email.com'
+    link: 'mailto:avmatus@gmail.com'
   - icon: github
     icon_pack: fab
     link: https://github.com/alex-matus
